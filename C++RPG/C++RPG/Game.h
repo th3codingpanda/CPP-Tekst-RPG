@@ -9,6 +9,7 @@ public:
 	Game(Player* PaPlayer);
 	~Game();
 	void Update();
+	bool AskToContinue();
 
 private:
 	Player *PThePlayer;
